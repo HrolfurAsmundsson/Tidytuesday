@@ -77,6 +77,4 @@ geom_point(data=numbats,aes(y= decimalLatitude,x=decimalLongitude),color="#FFCD0
 g3
 ```
 
-    ## Warning: Removed 83 rows containing missing values (`geom_point()`).
-
 ![](numbats_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
