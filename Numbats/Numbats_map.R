@@ -19,7 +19,7 @@ geom_point(data=numbats,aes(y= decimalLatitude,x=decimalLongitude),color="#FFCD0
   theme(axis.line = element_blank(),
     panel.grid = element_blank(),    
     panel.background = element_rect(fill = '#006994'))+
-  ggtitle("Numbat sightings in Australia")
+  labs(title="Numbat sightings in Australia", caption = "TidyTuesday | Data: Atlas of Living Australia | Design: Hrólfur Ásmundsson")
 g1
 
-
+g2 <-
